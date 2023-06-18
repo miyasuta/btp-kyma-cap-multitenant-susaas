@@ -62,7 +62,7 @@ srv:
       serviceInstanceName: html5-repo-runtime
     alert-notification:
       # Only enable if Alert Notification Service instance is available in namespace
-      enabled: false #true
+      enabled: true
       # As Alert Notification is unique per namespace, serviceInstanceFullname is used
       serviceInstanceFullname: alert-notification
     identity:
@@ -370,7 +370,7 @@ html5_repo_runtime:
 # SAP Cloud Identity Service Instance
 # Provides an SAP IAS integration for central user management
 identity:
-  enabled: true # Enable if an SAP IAS instance is configured as Trusted Identity Provider
+  enabled: false # Enable if an SAP IAS instance is configured as Trusted Identity Provider
   serviceOfferingName: identity
   servicePlanName: application
   parameters:
