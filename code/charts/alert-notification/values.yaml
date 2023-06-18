@@ -5,13 +5,13 @@ global:
 alert_notification:
   fullnameOverride: alert-notification
   serviceOfferingName: alert-notification
-  servicePlanName: free
+  servicePlanName: lite #free
   parameters:
     configuration:
       actions:
       - name: send-email
         properties:
-          destination: john.doe@example.com
+          destination: mio.fujita.01@gmail.com
         state: ENABLED
         type: EMAIL
       conditions:

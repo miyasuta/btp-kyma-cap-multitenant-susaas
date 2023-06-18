@@ -5,7 +5,7 @@
   "license": "Apache License 2.0",
   "description": "Sustainable SaaS",
   "config": {
-    "imagePrefix": "<<Namespace>>"
+    "imagePrefix": "miyasuta"
   },
   "engines": {
     "node": "^16.x"
